@@ -1,6 +1,7 @@
  
 import './Main.css'
 import photo1 from "./images/Logo.jpg"
+import photo2 from "./images/ict.jpg"
 
 
 import { Flex, Text, Image, Box } from '@chakra-ui/react';
@@ -41,8 +42,8 @@ const Main = () => {
         <Box maxWidth="100%" mx="auto" >
           <div className='imagem'>
             <Image 
-              src="src\components\images\ict.JPG" // Substitua pelo caminho da sua imagem
-              alt="Descrição da imagem"
+              src={photo2} // Substitua pelo caminho da sua imagem
+              alt="dojo"
               boxSize="100%" // Tamanho da caixa da imagem
               objectFit="cover" // Ajuste do conteúdo da imagem dentro da caixa
             />
