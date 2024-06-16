@@ -1,5 +1,7 @@
  
 import './Main.css'
+import photo1 from "./images/Logo.png"
+
 import { Flex, Text, Image, Box } from '@chakra-ui/react';
 
 const Main = () => {
@@ -19,7 +21,7 @@ const Main = () => {
       </Flex>
       
       <Flex alignItems="center"  mt={30} >
-        <Image src="src\components\images\Logo.png" w={100} alt="Logo" className='img' boxSize="150px" mr={2} />
+        <Image src={photo1} w={100} alt="Logo" className='img' boxSize="150px" mr={2} />
         <Text fontSize="20" fontWeight="bold">THE TRADING DOJO</Text>
       </Flex>
 
