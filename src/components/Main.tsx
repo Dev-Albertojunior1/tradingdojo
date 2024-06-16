@@ -43,7 +43,7 @@ const Main = () => {
           <div className='imagem'>
             <Image 
               src={photo2} // Substitua pelo caminho da sua imagem
-              alt="dojo"
+              alt="dojoo"
               boxSize="100%" // Tamanho da caixa da imagem
               objectFit="cover" // Ajuste do conteúdo da imagem dentro da caixa
             />
