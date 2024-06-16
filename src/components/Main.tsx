@@ -15,7 +15,7 @@ const Main = () => {
     >
       {/* Título com logo ao lado esquerdo */}
       <Flex alignItems="center"  mb={50} >
-        <Text fontSize="xl" fontWeight="bold" className='title'>Welcome to Our Website</Text>
+        <Text fontSize="xl" fontWeight="bold" className='title'>Welcomee to Our Website</Text>
       </Flex>
       
       <Flex alignItems="center"  mt={30} >
