@@ -1,7 +1,7 @@
  
 import './Main.css'
 import photo1 from "./images/Logo.jpg"
-import photo2 from "./images/ict.jpg"
+import photo2 from "./images/ict.png"
 
 
 import { Flex, Text, Image, Box } from '@chakra-ui/react';
