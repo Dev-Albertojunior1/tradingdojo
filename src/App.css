@@ -1,0 +1,55 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+  
+
+}
+
+/* .main-conten{
+  background-color: rgb(57, 57, 57);
+  display: flex;
+  margin-bottom: 100px;
+  
+} */
+
+.container {
+  min-height: calc(100vh - 120px); /* Ajuste conforme o tamanho do header e footer */
+  display: flex;
+  background-color: rgb(57, 57, 57);
+  color: rgb(255, 0, 0);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn{
+ 
+
+}
+
+
+
+
+/* Exemplo de ajuste para telas menores */
+@media screen and (max-width: 768px) {
+  header {
+    height: 50px;
+    padding: 0 10px;
+  }
+  footer {
+    height: 50px;
+  }
+}
+
+/* Ajuste de fonte e layout para telas muito pequenas */
+@media screen and (max-width: 480px) {
+  header {
+    height: 40px;
+    padding: 0 5px;
+  }
+  footer {
+    height: 40px;
+  }
+}
+
+

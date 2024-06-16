@@ -1,0 +1,62 @@
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(57, 57, 57);
+    color: white;
+    
+    padding: 20px;
+  }
+
+  .img{
+    display: flex;
+    
+    width: 200px;
+  }
+
+  .imagem{
+    display: flex;
+    margin-top: 70px;
+    
+  }
+
+  .subir{
+    display: flex;
+    
+  }
+
+  .title{
+    margin-top: 40px;
+    color: rgb(124, 115, 111);
+  }
+
+  .join{
+    font-size: 16px;
+    margin-top: 20px;
+    color: #ff1818;
+  }
+
+  .text1{
+    margin-top: 40px;
+    font-size: 20px;
+  }
+
+  
+
+  
+  
+  
+  @media screen and (max-width: 768px) {
+    .main-content {
+      padding: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .main-content {
+      padding: 5px;
+    }
+  }
+
+  
+  
